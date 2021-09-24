@@ -1,0 +1,61 @@
+<!--
+ * @Description: 
+ * @Version: 2.0
+ * @Autor: lwq
+ * @Date: 2021-09-23 15:45:20
+ * @LastEditors: Seven
+ * @LastEditTime: 2021-09-23 19:36:54
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    // let obj1 = {
+    //   statusbar: {
+    //     abc: 1,
+    //   },
+    // }
+    // let obj2 = {
+    //   statusbar: {
+    //     abc: 1,
+    //   },
+    // }
+    // if (obj1?.statusbar?.abc == 1) {
+    //   console.log('true123123')
+    // } else {
+    //   console.log(12312)
+    // }
+    // if (obj2.statusbar?.abc == 1) {
+    //   console.log('true123123')
+    // } else {
+    //   console.log(12312)
+    // }
+    let obj1 = {
+      name: 1233,
+      sortvoger: {
+        status: 1,
+      },
+    }
+    let obj2 = {
+      name: 1233,
+      sortvoger: {
+        status: null,
+      },
+    }
+    function add() {}
+
+    // console.log(obj1?.sortvoger?.status)
+    if (obj1?.sortvoger?.status == 1) {
+      console.log('true')
+      add()
+    } else {
+      console.log('false')
+    }
+  </script>
+</html>
